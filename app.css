@@ -1,0 +1,23 @@
+div#splash
+{
+    z-index: 1024;
+    background: #ff0000;
+    
+    -webkit-transition: -webkit-transform 600ms ease-in-out 1000ms;
+}
+
+div#content
+{   
+    -webkit-transform: translate3d(0,0,0);
+    
+    background: #ffffff;
+}
+
+div.page
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+}
