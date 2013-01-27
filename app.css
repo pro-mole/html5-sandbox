@@ -1,7 +1,8 @@
 div#splash
 {
     z-index: 1024;
-    background: #ff0000;
+    background: url("/img/000-cover.png");
+    background-repeat: no-repeat;
     
     -webkit-transition: -webkit-transform 600ms ease-in-out 1000ms;
 }
